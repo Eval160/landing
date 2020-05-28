@@ -21,3 +21,14 @@
 .card p {
   opacity: 0.6;
 }
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .cards {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card {
+    margin-bottom: 10px;
+  }
