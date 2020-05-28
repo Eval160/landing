@@ -1,0 +1,21 @@
+.footer {
+  background-color: #2C2B2B;
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer p{
+  color: #6B6C6C;
+}
+.social-medias {
+  display: flex;
+  list-style: none;
+  color: #16B0FF;
+  font-size: 30px;
+  justify-content: center;
+  margin: 0;
+}
+.social-medias i {
+  padding-right: 20px;
+}
